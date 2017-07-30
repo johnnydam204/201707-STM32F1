@@ -1,0 +1,27 @@
+.\obj\lcd16x2.o: Device\Source C\lcd16x2.c
+.\obj\lcd16x2.o: .\Device\Include\lcd16x2.h
+.\obj\lcd16x2.o: .\Main\main.h
+.\obj\lcd16x2.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\obj\lcd16x2.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\obj\lcd16x2.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\obj\lcd16x2.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\lcd16x2.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\lcd16x2.o: .\Main\DEF_STM32.h
+.\obj\lcd16x2.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\obj\lcd16x2.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\lcd16x2.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\lcd16x2.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\lcd16x2.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\lcd16x2.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+.\obj\lcd16x2.o: .\FWlib\Include\stm32f10x_conf.h
+.\obj\lcd16x2.o: .\FWlib\Include\stm32f10x_gpio.h
+.\obj\lcd16x2.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\obj\lcd16x2.o: .\FWlib\Include\stm32f10x_rcc.h
+.\obj\lcd16x2.o: .\FWlib\Include\stm32f10x_usart.h
+.\obj\lcd16x2.o: .\FWlib\Include\misc.h
+.\obj\lcd16x2.o: .\User\Include\user_delay.h
+.\obj\lcd16x2.o: .\Main\main.h
+.\obj\lcd16x2.o: .\User\Include\user_gpio.h
+.\obj\lcd16x2.o: .\Device\Include\lcd16x2.h
+.\obj\lcd16x2.o: .\Device\Include\onewire.h
+.\obj\lcd16x2.o: .\Device\Include\ds18b20.h

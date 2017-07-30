@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Company\Thang 9_2013\Tuan 4\Code STM32\Giao Tiep + Dieu Khien LCD 128X64\main.uvproj
+Project File Date:  10/10/2013
+
+<h2>Output:</h2>
+Rebuild target 'Led Don'
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling user_delay.c...
+compiling user_gpio.c...
+compiling main.c...
+compiling lcd128x64.c...
+linking...
+Program Size: Code=4610 RO-data=746 RW-data=44 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\main.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Led Don'
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling user_delay.c...
+compiling user_gpio.c...
+compiling main.c...
+compiling lcd128x64.c...
+linking...
+Program Size: Code=4610 RO-data=746 RW-data=44 ZI-data=1636  
+FromELF: creating hex file...
+".\Obj\main.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\Company\\Thang 9_2013\\Tuan 4\\Code STM32\\Giao Tiep + Dieu Khien LCD 128X64\\Obj\\main.axf" 
+Set JLink Project File to "D:\Company\Thang 9_2013\Tuan 4\Code STM32\Giao Tiep + Dieu Khien LCD 128X64\JLinkSettings.ini"
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: STM32F1xxx: Can not attach to CPU. Trying connect under reset.
+Load "D:\\Company\\Thang 9_2013\\Tuan 4\\Code STM32\\Giao Tiep + Dieu Khien LCD 128X64\\Obj\\main.axf" 
+Set JLink Project File to "D:\Company\Thang 9_2013\Tuan 4\Code STM32\Giao Tiep + Dieu Khien LCD 128X64\JLinkSettings.ini"
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

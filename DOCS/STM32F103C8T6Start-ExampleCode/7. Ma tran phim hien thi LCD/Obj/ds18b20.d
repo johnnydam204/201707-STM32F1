@@ -1,0 +1,27 @@
+.\obj\ds18b20.o: Device\Source C\ds18b20.c
+.\obj\ds18b20.o: .\Device\Include\ds18b20.h
+.\obj\ds18b20.o: .\Main\main.h
+.\obj\ds18b20.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\obj\ds18b20.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\obj\ds18b20.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\obj\ds18b20.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\ds18b20.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\ds18b20.o: .\Main\DEF_STM32.h
+.\obj\ds18b20.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\obj\ds18b20.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\ds18b20.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\ds18b20.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\ds18b20.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\ds18b20.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+.\obj\ds18b20.o: .\FWlib\Include\stm32f10x_conf.h
+.\obj\ds18b20.o: .\FWlib\Include\stm32f10x_gpio.h
+.\obj\ds18b20.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\obj\ds18b20.o: .\FWlib\Include\stm32f10x_rcc.h
+.\obj\ds18b20.o: .\FWlib\Include\stm32f10x_usart.h
+.\obj\ds18b20.o: .\FWlib\Include\misc.h
+.\obj\ds18b20.o: .\User\Include\user_delay.h
+.\obj\ds18b20.o: .\Main\main.h
+.\obj\ds18b20.o: .\User\Include\user_gpio.h
+.\obj\ds18b20.o: .\Device\Include\lcd16x2.h
+.\obj\ds18b20.o: .\Device\Include\onewire.h
+.\obj\ds18b20.o: .\Device\Include\ds18b20.h

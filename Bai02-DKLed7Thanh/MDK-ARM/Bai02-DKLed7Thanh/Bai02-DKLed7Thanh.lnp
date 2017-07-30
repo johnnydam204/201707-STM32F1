@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"bai02-dkled7thanh\stm32f1xx_hal_cortex.o"
+"bai02-dkled7thanh\stm32f1xx_hal_rcc.o"
+"bai02-dkled7thanh\stm32f1xx_hal_flash.o"
+"bai02-dkled7thanh\stm32f1xx_hal_dma.o"
+"bai02-dkled7thanh\stm32f1xx_hal_flash_ex.o"
+"bai02-dkled7thanh\stm32f1xx_hal.o"
+"bai02-dkled7thanh\stm32f1xx_hal_rcc_ex.o"
+"bai02-dkled7thanh\stm32f1xx_hal_pwr.o"
+"bai02-dkled7thanh\stm32f1xx_hal_tim_ex.o"
+"bai02-dkled7thanh\stm32f1xx_hal_gpio_ex.o"
+"bai02-dkled7thanh\stm32f1xx_hal_gpio.o"
+"bai02-dkled7thanh\stm32f1xx_hal_tim.o"
+"bai02-dkled7thanh\stm32f1xx_it.o"
+"bai02-dkled7thanh\main.o"
+"bai02-dkled7thanh\stm32f1xx_hal_msp.o"
+"bai02-dkled7thanh\startup_stm32f103xb.o"
+"bai02-dkled7thanh\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai02-DKLed7Thanh\Bai02-DKLed7Thanh.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai02-DKLed7Thanh.map" -o Bai02-DKLed7Thanh\Bai02-DKLed7Thanh.axf

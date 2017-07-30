@@ -1,0 +1,116 @@
+Dependencies for Project 'main', Target 'LCD 16X2': (DO NOT MODIFY !)
+F (.\Startup\CM3\core_cm3.c)(0x4C0D2B6E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\FWlib\Include -I.\Main -I.\Device\Include -I.\User\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\obj\core_cm3.o --omf_browse .\obj\core_cm3.crf --depend .\obj\core_cm3.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (.\Startup\CM3\system_stm32f10x.c)(0x4D790FA0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\FWlib\Include -I.\Main -I.\Device\Include -I.\User\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Startup\CM3\stm32f10x.h)(0x4E308D46)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Startup\CM3\core_cm3.h)(0x4D530E48)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Startup\CM3\system_stm32f10x.h)(0x4D790F9A)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_conf.h)(0x500D1206)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_gpio.h)(0x5018E787)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7BDFA)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_rcc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_usart.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\misc.h)(0x4D7849C4)
+F (.\Startup\startup_stm32f10x_md.s)(0x4D790FC2)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\obj\startup_stm32f10x_md.o --depend .\obj\startup_stm32f10x_md.d)
+F (.\FWlib\Source C\stm32f10x_gpio.c)(0x4D79FCD6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\FWlib\Include -I.\Main -I.\Device\Include -I.\User\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_gpio.h)(0x5018E787)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7BDFA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7BDFA)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_conf.h)(0x500D1206)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_rcc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_usart.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\misc.h)(0x4D7849C4)
+F (.\FWlib\Source C\stm32f10x_rcc.c)(0x4D7849C4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\FWlib\Include -I.\Main -I.\Device\Include -I.\User\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_rcc.h)(0x4D7849C4)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7BDFA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7BDFA)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_conf.h)(0x500D1206)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_gpio.h)(0x5018E787)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_usart.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\misc.h)(0x4D7849C4)
+F (.\User\Source C\user_delay.c)(0x5018D3AD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\FWlib\Include -I.\Main -I.\Device\Include -I.\User\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\obj\user_delay.o --omf_browse .\obj\user_delay.crf --depend .\obj\user_delay.d)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\User\Include\user_delay.h)(0x521583A8)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Main\main.h)(0x524AEB51)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Main\DEF_STM32.h)(0x5236A1E8)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7BDFA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7BDFA)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_conf.h)(0x500D1206)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_gpio.h)(0x5018E787)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_rcc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_usart.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\misc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\User\Include\user_gpio.h)(0x5236A134)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Device\Include\lcd16x2.h)(0x51376FD3)
+F (.\User\Source C\user_gpio.c)(0x5236CB44)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\FWlib\Include -I.\Main -I.\Device\Include -I.\User\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\obj\user_gpio.o --omf_browse .\obj\user_gpio.crf --depend .\obj\user_gpio.d)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\User\Include\user_gpio.h)(0x5236A134)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_gpio.h)(0x5018E787)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7BDFA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7BDFA)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_conf.h)(0x500D1206)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_rcc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_usart.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\misc.h)(0x4D7849C4)
+F (.\Main\main.c)(0x524AECD9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\FWlib\Include -I.\Main -I.\Device\Include -I.\User\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Main\main.h)(0x524AEB51)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Main\DEF_STM32.h)(0x5236A1E8)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7BDFA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7BDFA)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_conf.h)(0x500D1206)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_gpio.h)(0x5018E787)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_rcc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_usart.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\misc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\User\Include\user_delay.h)(0x521583A8)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\User\Include\user_gpio.h)(0x5236A134)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Device\Include\lcd16x2.h)(0x51376FD3)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Main\var.h)(0x51F7C36C)
+F (.\Device\Source C\lcd16x2.c)(0x51376FE1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\FWlib\Include -I.\Main -I.\Device\Include -I.\User\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\obj\lcd16x2.o --omf_browse .\obj\lcd16x2.crf --depend .\obj\lcd16x2.d)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Device\Include\lcd16x2.h)(0x51376FD3)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Main\main.h)(0x524AEB51)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\Main\DEF_STM32.h)(0x5236A1E8)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7BDFA)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x51C7C35A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7C35A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7C35A)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x51C7BDFA)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_conf.h)(0x500D1206)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_gpio.h)(0x5018E787)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_rcc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\stm32f10x_usart.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\FWlib\Include\misc.h)(0x4D7849C4)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\User\Include\user_delay.h)(0x521583A8)
+I (D:\Company\Thang 9_2013\Tuan 4\Code STM32\3. Dieu Khien LCD 16X2\User\Include\user_gpio.h)(0x5236A134)

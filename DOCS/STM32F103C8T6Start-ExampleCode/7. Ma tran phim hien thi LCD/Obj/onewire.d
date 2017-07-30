@@ -1,0 +1,27 @@
+.\obj\onewire.o: Device\Source C\onewire.c
+.\obj\onewire.o: .\Device\Include\onewire.h
+.\obj\onewire.o: .\Main\main.h
+.\obj\onewire.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\obj\onewire.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\obj\onewire.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\obj\onewire.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\onewire.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\onewire.o: .\Main\DEF_STM32.h
+.\obj\onewire.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\obj\onewire.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\onewire.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\onewire.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\onewire.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\onewire.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+.\obj\onewire.o: .\FWlib\Include\stm32f10x_conf.h
+.\obj\onewire.o: .\FWlib\Include\stm32f10x_gpio.h
+.\obj\onewire.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\obj\onewire.o: .\FWlib\Include\stm32f10x_rcc.h
+.\obj\onewire.o: .\FWlib\Include\stm32f10x_usart.h
+.\obj\onewire.o: .\FWlib\Include\misc.h
+.\obj\onewire.o: .\User\Include\user_delay.h
+.\obj\onewire.o: .\Main\main.h
+.\obj\onewire.o: .\User\Include\user_gpio.h
+.\obj\onewire.o: .\Device\Include\lcd16x2.h
+.\obj\onewire.o: .\Device\Include\onewire.h
+.\obj\onewire.o: .\Device\Include\ds18b20.h

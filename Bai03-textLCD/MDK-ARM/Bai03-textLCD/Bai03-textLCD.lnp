@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"bai03-textlcd\system_stm32f1xx.o"
+"bai03-textlcd\textlcd.o"
+"bai03-textlcd\startup_stm32f103xb.o"
+"bai03-textlcd\main.o"
+"bai03-textlcd\stm32f1xx_it.o"
+"bai03-textlcd\stm32f1xx_hal_msp.o"
+"bai03-textlcd\stm32f1xx_hal_tim.o"
+"bai03-textlcd\stm32f1xx_hal_gpio_ex.o"
+"bai03-textlcd\stm32f1xx_hal_gpio.o"
+"bai03-textlcd\stm32f1xx_hal.o"
+"bai03-textlcd\stm32f1xx_hal_tim_ex.o"
+"bai03-textlcd\stm32f1xx_hal_cortex.o"
+"bai03-textlcd\stm32f1xx_hal_flash_ex.o"
+"bai03-textlcd\stm32f1xx_hal_dma.o"
+"bai03-textlcd\stm32f1xx_hal_flash.o"
+"bai03-textlcd\stm32f1xx_hal_pwr.o"
+"bai03-textlcd\stm32f1xx_hal_rcc_ex.o"
+"bai03-textlcd\stm32f1xx_hal_rcc.o"
+--library_type=microlib --strict --scatter "Bai03-textLCD\Bai03-textLCD.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai03-textLCD.map" -o Bai03-textLCD\Bai03-textLCD.axf
