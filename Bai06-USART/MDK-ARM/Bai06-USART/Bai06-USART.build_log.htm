@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Johnny Dam, Dfamily, LIC=65IQD-8FBL6-LPVZV-P43NS-0EQBF-PDHID
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.20
+Toolchain Path:  C:\Keilv5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+F:\DOCS\201707-STM32F1\Bai06-USART\MDK-ARM\Bai06-USART.uvprojx
+Project File Date:  08/04/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keilv5\ARM\ARMCC\Bin'
+Rebuild target 'Bai06-USART'
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_it.c...
+compiling main.c...
+../Src/main.c(102): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Receive_IT(&huart2, kyTuNhanVe, 1);
+../Src/main.c(145): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart2, buffer, doDaiChuoi, 1000);
+../Src/main.c: 2 warnings, 0 errors
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_hal_uart.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_rcc.c...
+linking...
+Program Size: Code=4568 RO-data=292 RW-data=16 ZI-data=1288  
+"Bai06-USART\Bai06-USART.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\DOCS\201707-STM32F1\Bai06-USART\MDK-ARM\RTE
+  C:\Keilv5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keilv5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

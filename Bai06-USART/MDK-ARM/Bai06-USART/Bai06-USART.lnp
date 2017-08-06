@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"bai06-usart\stm32f1xx_hal_msp.o"
+"bai06-usart\main.o"
+"bai06-usart\stm32f1xx_it.o"
+"bai06-usart\stm32f1xx_hal_gpio_ex.o"
+"bai06-usart\stm32f1xx_hal_tim.o"
+"bai06-usart\stm32f1xx_hal_dma.o"
+"bai06-usart\stm32f1xx_hal_flash_ex.o"
+"bai06-usart\stm32f1xx_hal_uart.o"
+"bai06-usart\stm32f1xx_hal_rcc_ex.o"
+"bai06-usart\stm32f1xx_hal_tim_ex.o"
+"bai06-usart\stm32f1xx_hal.o"
+"bai06-usart\stm32f1xx_hal_cortex.o"
+"bai06-usart\stm32f1xx_hal_pwr.o"
+"bai06-usart\stm32f1xx_hal_flash.o"
+"bai06-usart\stm32f1xx_hal_rcc.o"
+"bai06-usart\stm32f1xx_hal_gpio.o"
+"bai06-usart\startup_stm32f103xb.o"
+"bai06-usart\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai06-USART\Bai06-USART.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai06-USART.map" -o Bai06-USART\Bai06-USART.axf
