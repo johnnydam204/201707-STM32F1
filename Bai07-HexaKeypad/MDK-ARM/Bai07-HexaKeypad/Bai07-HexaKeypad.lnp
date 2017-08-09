@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"bai07-hexakeypad\startup_stm32f103xb.o"
+"bai07-hexakeypad\system_stm32f1xx.o"
+"bai07-hexakeypad\stm32f1xx_it.o"
+"bai07-hexakeypad\stm32f1xx_hal_msp.o"
+"bai07-hexakeypad\main.o"
+"bai07-hexakeypad\hexakeypad.o"
+"bai07-hexakeypad\textlcd.o"
+"bai07-hexakeypad\stm32f1xx_hal_cortex.o"
+"bai07-hexakeypad\stm32f1xx_hal_pwr.o"
+"bai07-hexakeypad\stm32f1xx_hal_rcc_ex.o"
+"bai07-hexakeypad\stm32f1xx_hal_flash.o"
+"bai07-hexakeypad\stm32f1xx_hal.o"
+"bai07-hexakeypad\stm32f1xx_hal_tim.o"
+"bai07-hexakeypad\stm32f1xx_hal_gpio.o"
+"bai07-hexakeypad\stm32f1xx_hal_gpio_ex.o"
+"bai07-hexakeypad\stm32f1xx_hal_flash_ex.o"
+"bai07-hexakeypad\stm32f1xx_hal_tim_ex.o"
+"bai07-hexakeypad\stm32f1xx_hal_rcc.o"
+"bai07-hexakeypad\stm32f1xx_hal_dma.o"
+--library_type=microlib --strict --scatter "Bai07-HexaKeypad\Bai07-HexaKeypad.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai07-HexaKeypad.map" -o Bai07-HexaKeypad\Bai07-HexaKeypad.axf
